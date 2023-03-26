@@ -42,10 +42,10 @@ Current model presented in the notebook uses these hyperparameters: `learning ra
 ## Performance
 
 #### Training and validation loss plot:-
-![training and validation loss plot](.PNG?raw=true)
+![training and validation loss plot](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/trainingvsvalidationloss_plot.PNG?raw=true)
 
 #### Latent space distribution plot:-
-![training and validation loss plot](.PNG?raw=true)
+<img src="https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/latentspacedistribution_plot.PNG" alt="drawing" style="width:500px;"/>
 
 ## Discussion
 
@@ -60,12 +60,16 @@ Current model presented in the notebook uses these hyperparameters: `learning ra
 
 
 ## Original vs Reconstructed images
+#### Original images:-
+![Original images](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/original_events_3.PNG?raw=true)
 
-![Original images](.PNG?raw=true)
+#### Reconstructed images with different archietctures:-
+![Reconstructed images 1](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/reconstructed_events_1.PNG?raw=true)
 
-![Reconstructed images 1](.PNG?raw=true)
-![Reconstructed images 2](.PNG?raw=true)
-![Reconstructed images 3](.PNG?raw=true)
+![Reconstructed images 2](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/reconstructed_events_2.PNG?raw=true)
+
+![Reconstructed images 3](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/reconstructed_events_3.PNG?raw=true)
+
 
 
 
