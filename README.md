@@ -18,24 +18,54 @@ Variational Autoencoder (VAE) is a type of generative model used for unsupervise
 [Dataset](https://drive.google.com/file/d/1WO2K-SfU2dntGU4Bb3IYBp9Rh7rtTYEr/view?usp=sharing) given consists of four keys X_jets(image), m0(mass), pt(transverse momentum), y(labels for quark and gluon jet). 
 Each image is 125x125 consisting of three channels Track, ECAL and HCAL respectively.
 
-Channels for a sample image :-
+#### Channels for a sample image :-
 ![All channels](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/Visualizing_channels_VIRIDIS.PNG?raw=true)
 
-Combined channels image samples :-
+#### Combined channels image samples :-
 ![Combined channels samples](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/Combined_3channels_Samples.PNG?raw=true)
 
 ---
 
 ## Model building and training
 
-Encoder Architecture :-
+#### Encoder Architecture :-
 
 ![Encoder Architecture](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/Encoder_architecture.PNG?raw=true)
 
-Decoder Architecture :-
+#### Decoder Architecture :-
 
 ![Decoder Architecture](https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images/blob/master/assets/Decoder_architecture.PNG?raw=true)
 
+Different architectures, loss function, hyperparameters like learning rate, bottleneck(latent_dim) dimensions, batch size etc were tried out. However the reconstructed images didnt come out to be similar to original images.  
+Current model presented in the notebook uses these hyperparameters: `learning rate: 0.001`, `optimizer: Adam`, `latent_dim : 1024` 
+
+## Performance
+
+#### Training and validation loss plot:-
+![training and validation loss plot](.PNG?raw=true)
+
+#### Latent space distribution plot:-
+![training and validation loss plot](.PNG?raw=true)
+
+## Discussion
+
+*  Plot of training and validation loss suggests that validation losses for every epoch seem to be stuck around a value, indicating that the model is not improving much. Possible reasons can be:-
+    *   Model architecture not being complex enough to capture the underlying patterns in the data, 
+    *   Only a subset of dataset was used for training(~8000 images) 
+    *   Data being too noisy and not providing clear patterns for the model to learn.
+*   Data augmentation techniques like random blur, random crop, random rotation did not seem suitable as we are not working with classical images but with raw physical data.
+
+*   Distribution of latent sapce plot shows only a few dots far away from the rest of the dots that are clustered in one place. This suggests that the model is unable to differentiate between the two classes of images, quark and gluon, and is instead producing a single cluster of images.
+
+
+
+## Original vs Reconstructed images
+
+![Original images](.PNG?raw=true)
+
+![Reconstructed images 1](.PNG?raw=true)
+![Reconstructed images 2](.PNG?raw=true)
+![Reconstructed images 3](.PNG?raw=true)
 
 
 
