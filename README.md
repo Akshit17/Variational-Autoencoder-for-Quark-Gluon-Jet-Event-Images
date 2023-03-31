@@ -15,7 +15,7 @@ Applying for :- “Diffusion Models for Fast Detector Simulation” project
 
 The accurate and efficient simulation of particle physics processes is crucial for the high-energy physics community, as simulating particle interactions in the detector is time-consuming and computationally expensive.  Jet event images reconstruction is needed to pave the way for full detector level fast simulation, as it can potentailly provide effective reconstruction of LHC events on the level of calorimeter deposits and tracks. 
 
-For this particular evaluation task Variational autoencoder is used. Variational Autoencoder (VAE) is a type of generative model used for unsupervised learning. It is composed of two main components, an encoder and a decoder, which work together to learn a compressed representation of input data. The encoder takes the input data and maps it to a lower-dimensional latent space representation, while the decoder generates new data points from the learned latent representation.
+For this particular evaluation task Variational autoencoder was used. Variational Autoencoder (VAE) is a type of generative model used for unsupervised learning. It is composed of two main components, an encoder and a decoder, which work together to learn a compressed representation of input data. The encoder takes the input data and maps it to a lower-dimensional latent space representation, while the decoder generates new data points from the learned latent representation.
 
 ---
 ## Dataset
