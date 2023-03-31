@@ -1,12 +1,14 @@
 # ML4SCI DeepFalcon Tasks
-Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images
+
 This repository contains evaluation Common Task 1 listed [here](https://docs.google.com/document/d/1bwRaHc0IYIcFOokMcW-mYJv2i24iP1mm08ALTSyQ4EI/edit#)
 
 Common Task 1: https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images
 
 Common Task 2:  https://github.com/Akshit17/GNN-based-classification
 
-Specific Task n: *add link to specific task*
+Specific Task 2: https://github.com/Akshit17/Diffusion-model-for-Quark-Gluon-Jet-images
+
+Applying for :- “Diffusion Models for Fast Detector Simulation” project
 
 ---
 ## Jet event images reconstruction
