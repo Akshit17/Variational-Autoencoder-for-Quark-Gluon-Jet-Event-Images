@@ -11,7 +11,7 @@ Specific Task 2: https://github.com/Akshit17/Diffusion-model-for-Quark-Gluon-Jet
 Applying for :- “Diffusion Models for Fast Detector Simulation” project
 
 ---
-## Jet event images reconstruction
+## Jet events reconstruction
 
 The accurate and efficient simulation of particle physics processes is crucial for the high-energy physics community, as simulating particle interactions in the detector is time-consuming and computationally expensive.  Jet event images reconstruction is needed to pave the way for full detector level fast simulation, as it can potentailly provide effective reconstruction of LHC events on the level of calorimeter deposits and tracks. 
 
