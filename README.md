@@ -2,11 +2,11 @@
 
 This repository contains evaluation Common Task 1 listed [here](https://docs.google.com/document/d/1bwRaHc0IYIcFOokMcW-mYJv2i24iP1mm08ALTSyQ4EI/edit#)
 
-Common Task 1: https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images
+Common Task 1: https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1U0GpBILJBN41ycrfjwszWSsDEfZowT6z?usp=share_link)
 
-Common Task 2:  https://github.com/Akshit17/GNN-based-classification
+Common Task 2:  https://github.com/Akshit17/GNN-based-classification   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CNLgeSXUhHWAxsWbIoOkXcg2F5MyR8E7?usp=share_link)
 
-Specific Task 2: https://github.com/Akshit17/Diffusion-model-for-Quark-Gluon-Jet-images
+Specific Task 2: https://github.com/Akshit17/Diffusion-model-for-Quark-Gluon-Jet-images    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yguDl8tepWsCyd-PxZYjCf7msVMrzfJx?usp=share_link)
 
 Applying for :- “Diffusion Models for Fast Detector Simulation” project
 
