@@ -1,6 +1,6 @@
-# ML4SCI DeepFalcon Tasks
+# ML4SCI DeepFalcon & Genie Tasks
 
-This repository contains evaluation Common Task 1 listed [here](https://docs.google.com/document/d/1bwRaHc0IYIcFOokMcW-mYJv2i24iP1mm08ALTSyQ4EI/edit#)
+This repository contains evaluation Common Task 1 listed in Deepfalcon [here](https://docs.google.com/document/d/1bwRaHc0IYIcFOokMcW-mYJv2i24iP1mm08ALTSyQ4EI/edit#) and Genie [here](https://docs.google.com/document/d/10C8mNjE-WE6OuESjcnuJ_N430D-Hdtz-4_lLxGMnKbI/edit#)
 
 Common Task 1: https://github.com/Akshit17/Variational-Autoencoder-for-Quark-Gluon-Jet-Event-Images   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1U0GpBILJBN41ycrfjwszWSsDEfZowT6z?usp=share_link)
 
@@ -8,7 +8,7 @@ Common Task 2:  https://github.com/Akshit17/GNN-based-classification   [![Open I
 
 Specific Task 2: https://github.com/Akshit17/Diffusion-model-for-Quark-Gluon-Jet-images    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yguDl8tepWsCyd-PxZYjCf7msVMrzfJx?usp=share_link)
 
-Applying for :- “Diffusion Models for Fast Detector Simulation” project
+Applying for :- **“Diffusion Models for Fast Detector Simulation”** and **"Learning the Latent Structure with Diffusion Models"** project
 
 ---
 ## Jet events reconstruction
